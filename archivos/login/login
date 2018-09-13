@@ -1,0 +1,63 @@
+<! -- bootdtrap cdn --> 
+
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+
+<div class="container">
+<div class="login-form col-md-4 offset-md-4">
+	<h1 class="title">Logeo para administradores</h1>
+      
+       <form>
+       	
+       	     <div class="form-group">
+       	     	   <label> Nombre de administrador</label>
+       	     	   <input type="text" name="" class="form-control">
+       	     	
+       	     </div>
+
+       	      <div class="form-group">
+       	     	   <label> Contraseña</label>
+       	     	   <input type="text" name="" class="form-control">
+       	     	
+       	     </div>
+
+               <div class="form-group">
+       	     	  
+       	     	   <input type="checkbox"> Recordar 
+       	     </div>
+
+                 <button class="btn btn-primary btn-block">Login</button>
+       </form>
+
+	
+</div>
+
+</div>
+
+<!--add some css styles -->
+
+<style type="text/css">
+	body{
+	    background-image:url(blog1.webp);
+	    background-size:cover;	
+	}
+        .login-form{
+        	margin-top: 60px;
+        	box-shadow: 0px 0px 10px 1px grey;
+        	border-radius:5px;
+        	padding-bottom:20px;
+        	background: white;
+
+        }
+
+        .title{
+        	background: #007bbf;
+        	padding: 10px;
+        	text-align: center;
+        	color:#fff;
+        	border-radius: 0px 0px 10px 10px;
+        }
+
+
+
+</style>
+
